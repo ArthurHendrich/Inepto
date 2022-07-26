@@ -1,0 +1,25 @@
+.OpenModal {
+  button {
+    border: 0;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background: var(--blue-500);
+    border-radius: 5px;
+    color: var(--white);
+
+    &:hover {
+      background: var(--blue-900);
+    }
+  }
+}
+
+.OverlayModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--white);
+  padding: 50px;
+  z-index: 1000;
+}
+

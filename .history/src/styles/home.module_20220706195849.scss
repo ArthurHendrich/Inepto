@@ -1,0 +1,45 @@
+.headerContainer {
+  min-height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  background: var(--blue-500);
+
+  .headerText {
+    padding-left: 2rem;
+
+    font-size: rem;
+
+    h1 {
+      font-weight: 50;
+      cursor: pointer;
+      text-shadow: 1px 0px 2px blue;
+    }
+
+    h2{
+      font-weight: 700;
+      line-height: 2rem;
+      text-shadow: 1.5px 0px 5px black;
+      cursor: pointer;
+    }
+  }
+
+  img {
+    width: 75%
+  }
+}
+
+.inputContainer {
+  max-width: 1475px;
+  margin: 0 auto;
+  margin-top: -55px;
+  position: absolute;
+  left: 120px;
+  padding: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}

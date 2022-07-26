@@ -1,0 +1,13 @@
+.headerContainer {
+  height: 6rem;
+  background-color: red;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.headerContent {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+}

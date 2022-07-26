@@ -1,0 +1,11 @@
+.headerContainer {
+  min-height: calc(65vh - 3.125rem);
+  margin: 0 auto;
+  max-width: 1120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: red;
+}

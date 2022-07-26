@@ -1,0 +1,11 @@
+.headerContainer {
+  min-height: calc(100vh - 3.125rem);
+  margin: 0 auto;
+  max-width: 1120px;
+
+  display: flex;
+
+  img{
+    max-width: 640px;
+  }
+}

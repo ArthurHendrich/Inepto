@@ -1,0 +1,29 @@
+.headerContainer {
+  min-height: calc(60vh - 3.125rem);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  background: var(--blue-500);
+
+  .headerText {
+    padding-left: 2rem;
+
+    font-size: rem;
+
+    h1 {
+      font-weight: 50;
+    }
+
+    h2{
+      font-weight: 700;
+      line-height: 2rem;
+      text-shadow: 2px 0px 0px black;
+    }
+  }
+
+  img {
+    width: 75%
+  }
+}
